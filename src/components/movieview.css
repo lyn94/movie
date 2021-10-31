@@ -1,0 +1,69 @@
+.Movie {
+    width: 1240px;
+    margin: 80px auto 100px;
+}
+
+.Movie .TitleBox {
+    margin-bottom: 24px;
+}
+.Movie h1.Title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #E0C097;
+}
+
+.Movie i.Explain {
+    color: #aaa;
+    font-size: 11px;
+
+}
+
+.MovieGallery {
+    display: flex;
+}
+
+.MovieGallery .view {
+    width: 55%;
+    display: flex;
+}
+
+.MovieGallery .view img {
+    width: 300px;
+    height: 450px;
+}
+
+.MovieGallery .view div {
+    width: 350px;
+    margin-left: 20px;
+    
+}
+
+.MovieGallery .view div h3 {
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.MovieGallery .view div i {
+    font-size: 11px;
+    color: #aaa;
+}
+
+.MovieGallery .view div ul li {
+    line-height: 40px;
+    font-size: 14px;
+    width: 100%;
+    clear: both;
+}
+
+.MovieGallery .view div ul li em {
+    float: left;
+    width: 90px;
+}
+.MovieGallery .view div ul li:last-child em {
+    height: 50px;
+}
+.MovieGallery .view div ul li p {
+    display: inline;
+}

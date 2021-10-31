@@ -1,0 +1,50 @@
+.MovieGallery .list {
+    width: 45%;
+}
+
+.MovieGallery .list table {
+    width: 100%;
+}
+
+.MovieGallery .list table .w1 {
+    width: 60px;
+}
+
+.MovieGallery .list table .w2 {}
+
+.MovieGallery .list table .w3 {
+    width: 120px;
+}
+
+.MovieGallery .list table .w4 {
+    width: 120px;
+}
+
+.MovieGallery .list table .w5 {
+    width: 60px;
+}
+
+.MovieGallery .list table th,
+.MovieGallery .list table td {
+   
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.MovieGallery .list table thead {}
+
+.MovieGallery .list table tr {
+    height: 38px;
+}
+
+.MovieGallery .list table tr th {
+    height: 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+.MovieGallery .list tbody {}
+
+.MovieGallery .list tbody tr {}
+
+.MovieGallery .list tbody tr td:nth-child(2) { text-align-last: left; }
